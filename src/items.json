@@ -1,0 +1,175 @@
+{
+    "items": [
+        {
+            "description": "Brady's Beef Patty. Sticky Onions, Pickled Cucumber, Rocket, Homemade Handsome Sauce, Brioche Bun. Add Cheese for 50c.",
+            "name": "HANDSOME BURGER",
+            "price": {
+                "amount": 9.0,
+                "currency": "€",
+                "text": "€9/€11"
+            }
+        },
+        {
+            "description": "Buttermilk Fried Chicken, Fiery Buffalo Sauce, Pickles, Gem Lettuce, Caesar Dressing.",
+            "name": "THE HANDSOME ROOST",
+            "price": {
+                "amount": 11.0,
+                "currency": "€",
+                "text": "€11/€13"
+            }
+        },
+        {
+            "description": "Bradys Beef Patty, Crispy Onions, Herterich's Crispy Bacon, Double Cheddar, Handsome Sauce, Brioche Bun.",
+            "name": "THE B.O.B",
+            "price": {
+                "amount": 10.5,
+                "currency": "€",
+                "text": "€10.50/€12.50"
+            }
+        },
+        {
+            "description": "Buttermilk Fried Chicken, Crispy Smoked Bacon, Handsome Pickles, Tomato, Lettuce, Lemon and Herb Mayo.",
+            "name": "STRAIGHT SHOOTER",
+            "price": {
+                "amount": 11.0,
+                "currency": "€",
+                "text": "€11/€13"
+            }
+        },
+        {
+            "description": "Bradys Beef Patty, Streaky Bacon, Smoked Cheddar, Pickles, Lettuce, Crispy Onion, Smokey Chipotle Sauce.",
+            "name": "THE SMOKESTER",
+            "price": {
+                "amount": 11.0,
+                "currency": "€",
+                "text": "€11/€13"
+            }
+        },
+        {
+            "description": "A Spinach & Chickpea Bhaji, Tandoori Onions, Feta Cheese, Cucumber & Mint Raita, Onions & Handsome Chutney, Brioche",
+            "name": "BAD N' BHAJI",
+            "price": {
+                "amount": 8.5,
+                "currency": "€",
+                "text": "€8.50/€10.50"
+            }
+        },
+        {
+            "description": "Please ask your server for details. I FRIES",
+            "name": "MONTHLY SPECIAL",
+            "price": {
+                "amount": 11.0,
+                "currency": "€",
+                "text": "€11/€13"
+            }
+        },
+        {
+            "description": "Beyond Meat Patty, Sticky Onions, Pickled Cucumber, Rocket, Homemade Handsome Sauce (V), Vegan Bun. SIDES & EXTRAS",
+            "name": "THE BEYOND BURGER",
+            "price": {
+                "amount": 11.5,
+                "currency": "€",
+                "text": "€11.50"
+            }
+        },
+        {
+            "description": "Triple fried, rosemary & sea salt.",
+            "name": "HANDSOME HOUSE FRIES",
+            "price": {
+                "amount": 3.5,
+                "currency": "€",
+                "text": "€3.50"
+            }
+        },
+        {
+            "description": null,
+            "name": "DOUBLE UP YOUR PATTY",
+            "price": {
+                "amount": 3.5,
+                "currency": "€",
+                "text": "€3.50"
+            }
+        },
+        {
+            "description": null,
+            "name": "GARLIC AIOLI",
+            "price": {
+                "amount": 1.5,
+                "currency": "€",
+                "text": "€1.50"
+            }
+        },
+        {
+            "description": "Chorizo, Fried Veg, Mint Raita, Garlic Aioli, Chillies.",
+            "name": "LOADED FRIES",
+            "price": {
+                "amount": 7.0,
+                "currency": "€",
+                "text": "€7"
+            }
+        },
+        {
+            "description": null,
+            "name": "SRIRACHA MAYO",
+            "price": {
+                "amount": 1.5,
+                "currency": "€",
+                "text": "€1.50"
+            }
+        },
+        {
+            "description": null,
+            "name": "PAPRIKA MAYO",
+            "price": {
+                "amount": 1.5,
+                "currency": "€",
+                "text": "€1.50"
+            }
+        },
+        {
+            "description": "Parmesan & Maple Bacon Fries With Garlic\nAioli.",
+            "name": "PARMESAN BACON FRIES",
+            "price": {
+                "amount": 6.5,
+                "currency": "€",
+                "text": "€6.50"
+            }
+        },
+        {
+            "description": null,
+            "name": "HANDSOME SAUCE",
+            "price": {
+                "amount": 1.5,
+                "currency": "€",
+                "text": "€1.50"
+            }
+        },
+        {
+            "description": null,
+            "name": "SAUCES X3",
+            "price": {
+                "amount": 3.0,
+                "currency": "€",
+                "text": "€3"
+            }
+        },
+        {
+            "description": "Grilled Onions, Handsome Taco Sauce, Garlic\nAioli, Melted Cheddar.",
+            "name": "TACO CHICKEN FRIES",
+            "price": {
+                "amount": 6.5,
+                "currency": "€",
+                "text": "€6.50"
+            }
+        },
+        {
+            "description": "Please ask your server for details.",
+            "name": "DESSERT SPECIAL",
+            "price": {
+                "amount": 6.5,
+                "currency": "€",
+                "text": "€6.50"
+            }
+        }
+    ]
+}
