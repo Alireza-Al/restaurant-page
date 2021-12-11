@@ -13,7 +13,6 @@ import Navbar from './Navbar/Navbar';
 function Home() {
   const [initialMenu, changeMenu] = useState<Array<any>>([])
 
-  const [navbarColor, setNavbarColor] = useState<any>('ffffff');
 
   useEffect(() => {
     fetchData()
