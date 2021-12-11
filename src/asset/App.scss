@@ -1,28 +1,40 @@
+// @import './TableStyle/Table.scss';
+@import "./Navbar/NavbarStyle.scss";
+
 body {
   height: 100%;
+  font-family: sans-serif;
 }
 
 * {
   box-sizing: border-box;
 }
 
-.homeStyle{
+.homeStyle {
   display: grid;
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../restaurant2.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../restaurant2.jpg");
 }
 
-.appStyle {
-  color: red;
-}
+.topSectionStyle {
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
 
-.sectionStyle {
-  background-color: rgb(32, 130, 216);
-  height: 1000px;
-  width: 300px;
+  .topSectionWelcomeStyle {
+    font-size: 25px;
+    margin: 25% 25% 0% 30%;
+  }
+
+  .closedStyle {
+    color: antiquewhite;
+    margin-top: 40px;
+  }
 }
 
 .lastSection {
   width: 100%;
-  height: 200px;
-  background-color: black;
+  height: 1000px;
+  background-color: rgb(110, 63, 63);
 }

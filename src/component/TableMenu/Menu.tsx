@@ -5,10 +5,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 interface MenuProps {
     item: Array<string>
-    actions?: Array<{
+    actions: Array<{
         actionIcon: any,
         actionType: MENU_ACTIONS
     }>
+    actionClick: (index: number, func: MENU_ACTIONS) => void
+    newFields: () => void
 }
 
 
@@ -65,22 +67,37 @@ export default function Menu(props: MenuProps) {
                                             <div className='d-inline-block indexStyle'>
                                                 {index + 1}
                                             </div>
-                                            <div className='d-inline-block'>
+                                            <div className='d-inline-block descriptionStyle'>
                                                 {item.description}
                                             </div>
-                                            <div>
+                                            <div className='nameStyle'>
                                                 {item.name}
                                             </div>
-                                            <div className='d-inline-block'>
+                                            <div className='d-inline-block priceStyle'>
                                                 {item.price.text}
                                             </div>
-
+                                        </div>
+                                        <div className='actionStyle'>
+                                            {props.actions?.length === 0 ? undefined
+                                                :
+                                                props.actions.map((action: {
+                                                    actionIcon: any,
+                                                    actionType: MENU_ACTIONS
+                                                }, index: number) => {
+                                                    return <div onClick={() => props.actionClick(index, action.actionType)}>
+                                                        {action.actionIcon}
+                                                    </div>
+                                                })
+                                            }
                                         </div>
                                     </Fragment>
                                 })
                             }
                         </>
                 }
+            </div>
+            <div className='text-primary createStyle' onClick={() => props.newFields()}>
+                CREATE NEW FIELDS
             </div>
         </div>
     )
